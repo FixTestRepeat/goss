@@ -24,7 +24,7 @@ jobs:
    # - name: Build
    #   run: go build -v ./...
     - name: Call release-build.sh
-      run: ./release-build.sh goss-linux-amd64
+      run: ./release-build.sh linux-amd64
 
     - name: Test
       run: go test -v ./...
