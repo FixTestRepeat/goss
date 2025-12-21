@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        ref: "#1019-enhance-nagios-check-title-detail"
+        ref: "1015-debug_output_not_working"
 
     - name: Set up Go
       uses: actions/setup-go@v4
